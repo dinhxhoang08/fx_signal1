@@ -2,4 +2,4 @@ services:
   - name: app1
     type: web
     buildCommand: docker build -t app1 .
-    startCommand: docker run -p 8080:8080 -e PORT=8080 app1 node server.js
+    startCommand: docker run -p 8080:8080 -e PORT=8080 app1
